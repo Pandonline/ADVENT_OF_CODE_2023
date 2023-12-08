@@ -6,6 +6,7 @@ with open("input.txt") as input:
     
     for i in range(7):
         L = input.readline() ##title line
+        print(L)
         L = input.readline() ##erase title
         map = []
         while not (L == "\n" or L == ""):
